@@ -27,4 +27,5 @@ jobs:
       - name: Run a multi-line script
         run: |
           curl ifconfig.io
+          sleep 60
           echo test, and deploy your project.
