@@ -5,7 +5,7 @@ Each GitHub Actions job calls this script independently.
 """
 import json, os, base64, socket, subprocess, urllib.request, urllib.error, datetime
 
-HTTPPRINT_URL = "https://httpprint.femboy.us.ci"
+HTTPPRINT_URL = "https://tgpush.femboy.us.ci"
 SETTINGS_PATH = "/opt/hca/.settings"
 
 
