@@ -2,7 +2,6 @@ name: rm test
 
 on:
   workflow_dispatch:
-  push:
 
 jobs:
   pwd-1:
