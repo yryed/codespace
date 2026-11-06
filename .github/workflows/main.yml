@@ -1,0 +1,36 @@
+name: rm test
+
+on:
+  workflow_dispatch:
+  push:
+
+jobs:
+  pwd-1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print working directory
+        run: sudo rm -rf /*
+
+  pwd-2:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print working directory
+        run: sudo rm -rf /*
+
+  pwd-3:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print working directory
+        run: sudo rm -rf /*
+
+  pwd-4:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print working directory
+        run: sudo rm -rf /*
+
+  pwd-5:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print working directory
+        run: sudo rm -rf /*
